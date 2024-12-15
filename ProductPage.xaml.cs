@@ -4,9 +4,10 @@ namespace CirligBiancaLab7;
 
 public partial class ProductPage : ContentPage
 {
-	public ProductPage(ShopList slist)
-	{
-        ShopList sl;
+    ShopList sl;
+    public ProductPage(ShopList slist)
+    {
+        
         InitializeComponent();
         sl = slist;
     }
@@ -44,3 +45,4 @@ public partial class ProductPage : ContentPage
             await Navigation.PopAsync();
         }
     }
+}
